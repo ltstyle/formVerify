@@ -3,7 +3,7 @@
 
 --------------------------------
 
-##使用方法
+## 使用方法
 
 
 
@@ -17,7 +17,7 @@ npm start
 
 #### 引入formVerify.js文件
 ```html
-# 
+# development
 <script src="./formVerify-1.0.4.js"></script>
 
 # production
