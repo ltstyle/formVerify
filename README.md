@@ -1,9 +1,10 @@
 ## 起步
-##### formVerify.js是原生js编写的表单验证插件，提供了常用多种的表单验证方式，后续功能及验证方式持续更新中...
+##### formVerify.js是原生js编写的表单验证插件，提供了多种的表单验证方式，后续功能及验证方式持续更新中...
+
 
 --------------------------------
-
-## 使用方法
+###Demo: https://ltstyle.github.io/
+##使用方法
 
 
 
@@ -12,16 +13,16 @@
 npm install
 
 # 打包
-npm start
+npm run build 
 ```
 
 #### 引入formVerify.js文件
 ```html
-# development
-<script src="./formVerify-1.0.4.js"></script>
+# 
+<script src="./formVerify-1.0.5.js"></script>
 
 # production
-<script src="./dist/formVerify-1.0.4.min.js"></script>
+<script src="./dist/formVerify-1.0.5.min.js"></script>
 ```
 #### 声明根节点及实例
 ##### ver-id为必要属性，值为自定义集合名

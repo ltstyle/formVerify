@@ -1,8 +1,8 @@
 /**
  * @file formVerify.js
- * @version 1.0.4
+ * @version 1.0.5
  * @author  Tony_liu
- * @created 2019/12/3 - 2019/12/19
+ * @created 2019/11/3 - 2019/12/19
  */
 
 

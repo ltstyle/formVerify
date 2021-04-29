@@ -36,6 +36,7 @@
         .container {
             width: 85%;
             height: auto;
+            margin: 0 auto;
         }
         .sidebar {
             width: 15%;
@@ -47,10 +48,15 @@
         }
 
         .fv-box {
-            width: 80%;
+            width: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
             display: flex;
-            flex-direction:row;
-            justify-content:space-between;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            -webkit-justify-content: space-between;
+            justify-content: space-between;
             margin-bottom: 30px;
         }
         .fv-con {
@@ -111,9 +117,9 @@
 <br/>
 <br/>
 <div id="app" class="app">
-    <div class="sidebar">
-        <div class="side-item">纯英文</div>
-    </div>
+    <!--<div class="sidebar">-->
+    <!--    <div class="side-item">纯英文</div>-->
+    <!--</div>-->
     <div class="container" style="text-align: center;">
 
         <!-- 纯英文 -->
@@ -385,8 +391,8 @@
         <button ver-submit type="button">提交</button>
     </div>
 </div>
-<script src="./formVerify-1.0.4.js"></script>
-<!--<script src="./dist/formVerify-1.0.4.min.js"></script>-->
+<script src="./formVerify-1.0.5.js"></script>
+<!--<script src="./dist/formVerify-1.0.5.min.js"></script>-->
 <script>
     var test = new Ver({
         el:'#app',

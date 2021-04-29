@@ -7,7 +7,7 @@ const config = {
     output: {
         path: path.join(__dirname, 'dist'),
         publicPath: '/dist/',
-        filename: 'formVerify-1.0.4.min.js'
+        filename: 'formVerify-1.0.5.min.js'
     },
     optimization: {
         minimizer: [
